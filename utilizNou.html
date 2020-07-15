@@ -1,0 +1,183 @@
+	<!DOCTYPE html>
+
+	<html lang="ro">
+
+	<head>
+	 
+	<title>Înregistrare</title>
+	<meta charset="UTF-8">
+
+	<style>
+	body {
+		background-color: #FFFFE0;
+		}
+
+	p.quote {
+		font-family: Impact, Charcoal, sans-serif;
+		right:45%;
+		color: #4F3810;
+		} 
+
+	.button1 {
+		background-color: #4F3810;
+		border: none;
+		color: #FFEE76;
+		padding: 10px 20px;
+		text-align: center;
+		font-size: 15px;
+		cursor: pointer;
+		position: relative;
+		float: right;
+		top: 10px;
+		}
+
+	.button2 {
+		background-color: #4F3810;
+		border: none;
+		color: #FFEE76;
+		padding: 10px 37px;
+		text-align: center;
+		font-size: 15px;
+		cursor: pointer;
+		position: relative;
+		margin: -10px -199px;
+		float: right;
+		top: 65px;
+		}
+
+
+	ul {
+		list-style-type: none;
+		padding: 0.15%;
+		overflow: hidden;
+		background-color: #4F3810;
+		}
+
+	li {
+		float: left;
+		}
+
+	li a {
+		display: block;
+		color: #FFEE76;
+		text-align: center;
+		padding: 10px 130px;
+		text-decoration: none;
+		}
+
+	li a:hover {
+		background-color:#553E08;
+		}
+
+	.icons {
+		float: right;
+		}
+		
+	.ad {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+		}
+		
+	hr {
+		border-color:#FFEE76;
+		}
+		
+	p {
+		color:#4F3810;	
+		font-family: Impact, Charcoal, sans-serif;
+		}
+		
+	h1,h4 {
+		text-align:center;
+		color:#4F3810;
+		}
+	
+	input {
+		background-color: #4F3810;
+		color: #FFEE76;
+		}
+		
+	.util {
+		color: #4F3810;
+		cursor: pointer;
+		}
+		
+	
+	</style>
+
+	</head>
+
+
+	<body>
+	<p class="quote"> &emsp;&emsp;&emsp;&emsp;&emsp; <q>În cărți există mai multe comori decât în toate cufărele piraților de pe Insula Comorii.</q>– Walt Disney</p>
+
+	<a href="https://www.facebook.com">
+	  <img  class="icons" style="margin: -41px 125px" src="Facebook.png" alt="To Facebook">
+	</a>
+
+	<a href="https://www.twitter.com">
+	   <img class="icons" style="margin: -41px 70px" src="Twitter.png" alt="To Twitter">
+	</a>
+
+	<a href="https://www.instagram.com/">
+	  <img class="icons" style="margin: -40px 17px" src="Instagram.png" alt="To Instagram">
+	</a>
+
+	<a href="loginAdmin.html">
+		<button class="button1">Logare ca administrator</button>
+	</a>
+
+	<a href="loginUtiliz.html">
+		<button class="button2">Logare ca utilizator</button>
+	</a>
+	
+	<br><br><br>
+
+	<p class="quote" style="text-align: center"> Bun venit în lumea cărților!</p>
+
+	<hr>
+	<h1 style="text-align:center; font-family: Impact, Charcoal, sans-serif; font-size: 50px; color:#4F3810"> Biblioteca Județeană</h1>
+	<hr>
+	
+	<ul>
+
+	  <li><a href="index.html">Acasă</a></li>
+	  <li><a class="active" href="#home">Catalog online</a></li>
+	  <li><a href="contact.html">Contact</a></li>
+	  <li><a href="despre.html">Despre</a></li>
+	</ul>
+
+	<br><br><br>
+
+	<form action="utilizNou.php" method="post" align="center">
+		<fieldset style="border-color: #FFEE76">
+			<legend style="color:#4F3810">Sunteți utilizator nou?</legend>
+		
+			<label>Nume utilizator:</label>
+			<input type=text name=numeUtiliz required=required><br><br>
+		
+			<label>Parolă utilizator:</label>
+			<input type=password name=parolaUtiliz required=required><br><br>
+		
+			
+			<input type="submit" value="Trimite">
+
+		</fieldset>
+	</form>
+
+	
+	<h4>
+		<details>
+			<summary>Copyright © 2020</summary>
+			<p> - Biblioteca județeană, Giubega Larisa-Nicoleta</p>
+		</details>
+	</h4>
+
+	</body>
+
+
+
+	</html>
+
